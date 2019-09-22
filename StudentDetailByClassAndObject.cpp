@@ -25,7 +25,7 @@ class Student
  	cout<<"Enter Students Name:";
  	cin>>name;
  	
- 	cout<<"Enter Students Age";
+ 	cout<<"Enter Students Age:";
  	cin>>age;
  	
 	 cout<<"Enter Students Address:";
@@ -44,7 +44,7 @@ class Student
  	cin>>motherName;
  	
     Name=name;
-  Address=age;
+  Address=address;
   Phone=phone;
   Standard=standard;
   Age=age;
@@ -56,19 +56,21 @@ class Student
 public:
  void Details()
  {
- 	cout<<"Students Name:"<<Name;
+ 	cout<<endl;
+ 	cout<<"Students Details"<<endl;
+ 	cout<<"Students Name:"<<Name<<endl;
  		
- 	cout<<" Students Age"<<Age;
+ 	cout<<" Students Age:"<<Age<<endl;
  	
-	 cout<<" Students Address:"<<Address;
+	 cout<<" Students Address:"<<Address<<endl;
  	
- 	cout<<"Students Phone:"<<Phone;
+ 	cout<<"Students Phone:"<<Phone<<endl;
  	
- 	cout<<" Students Class:"<<Standard;
+ 	cout<<" Students Class:"<<Standard<<endl;
  		
- 	cout<<" Students Father Name:"<<FatherName;
+ 	cout<<" Students Father Name:"<<FatherName<<endl;
  	
-    cout<<" Students Mother Name:"<<MotherName;
+    cout<<" Students Mother Name:"<<MotherName<<endl;
  	
  }
  
