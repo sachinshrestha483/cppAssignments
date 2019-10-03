@@ -14,6 +14,7 @@ public:
 	  	
 	 	
 	  }
+	  
 	  ~Test()
 	  {
 	  	count--;
@@ -24,7 +25,8 @@ public:
 int Test::count=0;
 int main() 
 { 
-
+  cout<<"Constructing  Objects\n\n";
    Test a,b,c;
+   cout<<"\nDestroying Objects\n\n";
     return 0; 
 } 
